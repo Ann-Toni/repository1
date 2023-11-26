@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>weather</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      h1 {
+        color: #1964d6;
+        margin: 10px;
+        font-size: 35px;
+      }
+
+      button {
+        border: 1px solid #1964d6;
+        border-radius: 30px;
+        box-shadow: 1px 5px 23px rgba(0, 0, 0, 0.2);
+        color: white;
+        background-color: #1964d6;
+        display: block;
+        font-size: 16px;
+        margin: 30px auto 30px auto;
+        padding: 15px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: white;
+        color: #1964d6;
+        cursor: pointer;
+      }
+
+      .header-emoji {
+        font-size: 34px;
+      }
+      .current-temp {
+        font-size: 30px;
+      }
+      .current-max-temp {
+        font-weight: bold;
+      }
+      .upcoming-forecast {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .upcoming-forecast:hover {
+        background-color: #fefbef;
+        border-radius: 9%;
+      }
+      .upcoming-temp {
+        color: rgb(58, 58, 58);
+      }
+      .max-temp {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-emoji">🌤️</div>
+
+    <h1>Currently 21° in Tokyo</h1>
+
+    <div class="current-temp">
+      13° /
+      <span class="current-max-temp"> 23° </span>
+    </div>
+
+    <div class="upcoming-forecast">
+      <h3>🌧️ Tomorrow</h3>
+      <div class="upcoming-temp">
+        10° /
+        <span class="max-temp"> 21° </span>
+      </div>
+    </div>
+
+    <div class="upcoming-forecast">
+      <h3>🌥️ Saturday</h3>
+      <div class="upcoming-temp">
+        15° /
+        <span class="max-temp"> 17° </span>
+      </div>
+    </div>
+
+    <div class="upcoming-forecast">
+      <h3>☀️ Sunday</h3>
+      <div class="upcoming-temp">
+        25° /
+        <span class="max-temp"> 28° </span>
+      </div>
+    </div>
+
+    <button>Change city</button>
+  </body>
+
+  Coded by Ann-Toni Greaves
+</html>
